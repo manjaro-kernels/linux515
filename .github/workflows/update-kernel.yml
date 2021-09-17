@@ -1,0 +1,13 @@
+name: update_kernel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-kernel:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: manjaro-kernels/kernel-action@bump-kernel
+        with:
+          gitlab-pw: ${{ secrets.gitlab_server_user }}
+          bump-kernel: true
