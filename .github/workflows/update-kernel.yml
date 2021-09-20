@@ -10,4 +10,4 @@ jobs:
       - uses: manjaro-kernels/kernel-action@bump-kernel
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
-          bump-kernel: false
+          bump-kernel: true
