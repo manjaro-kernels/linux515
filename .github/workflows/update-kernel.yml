@@ -7,7 +7,7 @@ jobs:
   build-kernel:
     runs-on: ubuntu-20.04
     steps:
-      - uses: manjaro-kernels/kernel-action@bump-kernel
+      - uses: manjaro-kernels/kernel-action@master
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           bump-kernel: false
