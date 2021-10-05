@@ -12,3 +12,5 @@ jobs:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           bump-kernel: false
           bump-modules: false
+          gpg-key: ${{ secrets.GPG_KEY }}
+          gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
