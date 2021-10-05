@@ -11,4 +11,4 @@ jobs:
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           bump-kernel: false
-          bump-moules: false
+          bump-modules: false
