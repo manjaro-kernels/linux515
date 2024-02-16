@@ -13,6 +13,7 @@ jobs:
           build-mirror: ${{ secrets.BUILD_MIRROR }}
           branch: "stable"
           bump-kernel: false
+          bump-pkgrel: true
           bump-modules: "git"
           gpg-key: ${{ secrets.GPG_KEY }}
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
