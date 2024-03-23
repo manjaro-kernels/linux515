@@ -11,10 +11,10 @@ jobs:
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           build-mirror: ${{ secrets.BUILD_MIRROR }}
-          branch: "unstable"
+          branch: unstable
           bump-kernel: false
           bump-pkgrel: true
-          bump-modules: "repo"
+          bump-modules: repo
           gpg-key: ${{ secrets.GPG_KEY }}
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
           boxit-host: ${{ secrets.BOXIT_HOST }}
