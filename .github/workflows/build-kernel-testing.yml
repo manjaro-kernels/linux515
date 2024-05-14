@@ -1,4 +1,4 @@
-name: Build Kernel Stable
+name: Build Kernel Testing
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Update Kernel Stable
+name: Update Kernel Testing
 
 on:
   workflow_dispatch:
