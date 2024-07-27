@@ -17,5 +17,4 @@ jobs:
           bump-modules: "git"
           gpg-key: ${{ secrets.GPG_KEY }}
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
-          ssh-key: ${{ secrets.SSH_PACKAGE_CI }}
           bxt-api-key: ${{ secrets.BXT_API_KEY }}
